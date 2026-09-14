@@ -1,0 +1,25 @@
+Prodigy InfoTech Task 3 - Decision Tree Classifier
+=======================================================
+
+Dataset shape: (45211, 17)
+Training samples: 36168
+Testing samples: 9043
+
+Accuracy : 0.7556 (75.56%)
+Precision: 0.3067
+Recall   : 0.8639
+F1 Score : 0.4527
+
+Confusion Matrix:
+[[5919 2066]
+ [ 144  914]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          No       0.98      0.74      0.84      7985
+         Yes       0.31      0.86      0.45      1058
+
+    accuracy                           0.76      9043
+   macro avg       0.64      0.80      0.65      9043
+weighted avg       0.90      0.76      0.80      9043
